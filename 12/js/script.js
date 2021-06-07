@@ -563,7 +563,7 @@
 // }
 // document.getElementById("table").innerHTML = r;
 
-
+var data = [];
 
     var ajax = new XMLHttpRequest();
     ajax.open("GET","https://api.github.com/users");
@@ -571,21 +571,39 @@
     var res = '';
     ajax.onreadystatechange = function(){
         if(ajax.readyState == 4 && ajax.status == 200){
-            var data = JSON.parse(ajax.response);
+            data = JSON.parse(ajax.response);
             var tdata = '';
             for(var i=0 ,  datacount = data.length ;i < datacount;i++){
                     tdata += "<tr>";
                     tdata += "<td>"+ data[i].login; +"</td>";
-                    tdata += "<td> <img   src="+ data[i].avatar_url +" width='100px' height='100px'> </td>";
+                    tdata += "<td  onClick='test("+data[i].id+")' class='imgclass'  id='img-"+ i +"'> <img src="+ data[i].avatar_url +" width='100px' height='100px'> </td>";
                     tdata += "</tr>";
             }
             // console.log(tdata);
             document.getElementById("gitusers").innerHTML = tdata;
+            // var t = document.getElementById();
+            
             
         }
     }
 
-
+function test(x){
+    x = x -1;
+    var name = data[x].login;
+    var persondata = [];
+    var ajax = new XMLHttpRequest();
+    ajax.open("GET","https://api.github.com/users/"+name);
+    ajax.send();
+    ajax.onreadystatechange = function(){
+        if(ajax.readyState == 4 && ajax.status == 200){
+            persondata = JSON.parse(ajax.response);
+        }
+        var text = "<h1>"+ persondata.login +"</h1>";
+        text += "<h1>"+ persondata.bio +"</h1>";
+        document.getElementById("res").innerHTML = text;
+    }    
+   
+}
 
 
 
