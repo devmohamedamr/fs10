@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .bg{
+    width: 100%;
+    height: 600px;
+    background: url('medic-7.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(137,192,233,0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+.content button{
+    border: 0;
+    padding: 10px 20px;
+} */
+
+/* .bg{
+    width: 100%;
+    height: 600px;
+    background : url('medic-7.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.content{
+    position: absolute;
+    top: 44%;
+    left: 44%;
+}
+
+.content button{
+    border: 0;
+    padding: 20px 40px;
+} 
+ */
+
+
+
+ .profile{
+     width: 250px;
+     height: 350px;
+     margin: 100px auto;
+     position: relative;
+     overflow: hidden;
+
+}
+
+ .profile img {
+     width: 100%;
+     height: 100%;
+ }
+ .profile-social{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    position: absolute;
+    top: -100px;
+    left: 22%;
+    background-image: linear-gradient(        120deg        , #ee8425 0%, #f9488b 100%), linear-gradient(        120deg        , #ee8425 0%, #f9488b 100%);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+.profile-social a i {
+    color: white;
+}
+.profile-social a {
+    padding-left: 8px;
+}
+.profile-links{
+    margin-top: 9px;
+}
+
+.profile:hover .profile-social{
+    top: 0px;
+}
+
+/* profile titie */
+
+.profile-title{
+    transition: 0.5s all;
+    width: 80%;
+    height: 25%;
+    background: white;
+    position: absolute;
+    bottom: 10px;
+    left: -100%;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.profile:hover .profile-title{
+    left: 10%;
+}
+
+
+.product{
+    margin: 200px auto;
+    width: 200px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    overflow: hidden;
+}
+
+.product-img{
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.overlay{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product:hover .overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.links{
+    position: absolute;
+    top: 40%;
+    left: -150%;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.links > div {
+
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.product:hover .links > div{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 15px;
+}
+
+.product:hover .links {
+    left: 15%;
+
+}
+.product-price {
+    text-align: center;
+}
+.product-price > button{
+    margin-top: 300px;
+    border: none;
+    padding: 15px 40px ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: crimson;
+    color: white;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.product:hover .product-price > button {
+    margin-top: 30px;
+
+}

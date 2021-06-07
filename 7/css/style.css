@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&display=swap');
+
+body{
+    height: 2000px;
+}
+.h1blue{
+    color: blue;
+}
+/* *{
+    margin: 0;
+} */
+/* .box{
+    background: blue;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+} */
+
+.boxred{
+    background: red;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+
+}
+
+.sp1{
+    width: 200px;
+    height: 100px;
+    background: green;
+    display: block;
+}
+
+/* .content{
+    color: darkolivegreen;
+    border:  red dotted 10px;
+    outline: dotted 2px rebeccapurple;
+    background: gray;
+} */
+
+/* 
+.box{
+    width: 60%;
+    height: 500px;
+    background: rebeccapurple;
+    margin: auto;
+    text-align: center;
+    color: white;
+} */
+
+/* .text{
+    padding-top: 100px;
+} */
+
+/* input{
+    border:none;
+    outline: none;
+    padding:10px 50px;
+    background: transparent;
+    border:1px solid white;
+} */
+
+/* button{
+    border: none;
+    padding:10px 10px;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-right-color: gray;
+    border-right-style: solid;
+}
+
+::placeholder {
+    color: white;
+} */
+/* body{
+    width: 2000px;
+    overflow-x: hidden;
+}
+.text{
+    width: 100px;
+    height: 100px;
+    background: turquoise;
+} */
+
+.size{
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+
+    background: red;
+    float: left;
+    margin-right: 20px;
+}
+
+.blue{
+    background: blue;
+    /* float: left; */
+}
+.clr{
+    clear: both;
+}
+
+
+.btn{
+    padding: 20px 50px;
+    background: lightsalmon;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+/* .box{
+    background: blue;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+}
+
+.child{
+    background: red;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.product{
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgb(175, 175, 175);
+    position: relative;
+    overflow: hidden;
+}
+
+.product-img{
+    width: 100%;
+    height: 70%;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+}
+.product-desc{
+    width: 100%;
+    height: 30%;
+}
+
+.product-desc button {
+    border: none;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+}
+.product:hover button {
+    bottom: 20px;
+    left: 30px;
+} */
+
+/* p{
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+        font-weight: 100;
+} */
+
+.container{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+.item{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.item-icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: #4caf50;
+    font-size: 25px;
+    position: relative;
+
+}
+.item-icon i{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.item-content{
+    width: 80%;
+    height: 100%;
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.item-content h5{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.item-content p {
+    color: gray;
+    font-size: 16px;
+    /* text-align: left; */
+    text-transform: capitalize;
+    /* letter-spacing: 5px; */
+    text-indent: 20px;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&display=swap');
+
+body{
+    height: 2000px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+}
+
+div + h1{
+    background-color: indianred;
+}
+ 
